@@ -1,0 +1,13 @@
+langgraph
+langchain
+langchain-groq
+langchain-tavily
+tavily-python
+requests
+python-dotenv
+fastapi
+uvicorn
+jinja2
+airportsdata
+pycountry
+langgraph-checkpoint-sqlite
