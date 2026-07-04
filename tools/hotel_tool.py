@@ -2,13 +2,13 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-from langchain_core.tools import tool
+
 from tavily import TavilyClient
 client= TavilyClient(
     api_key=os.getenv("TAVILY_API_KEY")
 )
 
-@tool
+
 def tavily_search(query: str)->str:
     
     """Search the web for hotel information, prices, and recommendations 
